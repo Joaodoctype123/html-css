@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIDIAS E TAMANHOS</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Teste abri essas Imagem num celular num tablet e num computador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto-flexivel">
+    </picture>
+    <p><mark><code>Para fazermos isso temos o comando &lt;picture&gt;e o fechamento da tag e dentro dessa tag temos o comando &lt;source media="(max-width:750px )" srcset"arquivo onde se encontra a foto- imagens/foto-p.png type="image/png"&gt;;</code></mark></p>
+    <h2>Audios</h2>
+    <p>Aqui voce pode ouvir musicas olha abaixo</p>
+    <audio preload="none" controls autoplay loop>
+        <source src="50 Cent - Window Shopper (Official Music Video)(mp3j.cc).mp3" type="audio/mpeg">
+        <source src="50 Cent - Window Shopper (Official Music Video)(mp3j.cc).ogg" type="audio/ogg">
+        <source src="50 Cent - Window Shopper (Official Music Video)(mp3j.cc).wav" type="audio/wav">
+        <p>Infelizmente seu navegador não suporta nenhum dos tipos de audio (MP3,WAV,OGG).</p>
+    </audio>
+    <code>
+        <p><mark>Como adicionamos audio no navegador</mark></p>
+        <p><mark>&lt;audio preload="none" controls autoplay loop&gt;</mark> <br>
+        <mark>-----&lt;soucer src="onde o arquivo mp3 está!.mp3 ou .gg ou .wav" type="audio/mpeg" (ou /ogg ou /wav)&gt;</mark></p>
+    </code>
+</body>
+</html>

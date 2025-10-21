@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hovers</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
+        body {
+            background-color: rgb(255, 255, 255);
+            font-family:'Source Code Pro';
+            background-image: linear-gradient(to right,  black, rgb(255, 0, 0));
+            margin: none;
+        }
+        h1#principal2 {
+            border-radius: 5px;
+            padding: 5px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-family: 'BBH Sans Bartle';
+            text-shadow: black 10px 10px 10px;
+            
+        }
+        div:hover {
+            color: rgb(255, 0, 0);
+        }
+        div > ol {
+            display: none;
+            color: rgb(0, 0, 0);
+            background-color: aqua;
+            
+        }
+        div:hover > ol {
+            display: block;
+            background-color: rgb(0, 0, 0);
+            border-radius: 5px;
+            padding: 5px;
+        }
+        div {
+            background-color: black;
+            color: white;
+            width: 300px;
+            border-radius: 4px;
+            padding: 5px;
+            text-align: center;
+            display: inline-block;
+
+        }
+        ol {
+            color: white;
+            text-align: left;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        li {
+            background-color: rgb(255, 0, 0);
+            border-radius: 5px;
+            padding: 3px;
+    
+        }
+        p {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="principal2">Hovers</h1>
+    <p>Passe o Mouse sobre o texto abaixo!</p>
+    <div><strong>Passe o Mouse aqui!</strong>
+        <ol type="A">
+            <a href="https://www.w3.org/html/logo/" target="_self" rel="next" >
+                <li id="li-hover">Python</li>
+                <hr color="black">
+            </a>
+            
+            <a href="https://www.w3.org/html/logo/" target="_self" rel="next">
+                <li>HTML</li>
+                <hr color="black">
+            </a>
+            <a href="https://www.w3.org/html/logo/" target="_self" rel="next">
+                <li>JavaScript</li>
+                <hr color="black">
+            </a>
+            <a href="https://www.w3.org/html/logo/" target="_self" rel="next">
+                <li>Php</li>
+                <hr color="black">
+            </a>
+            <a href="https://www.w3.org/html/logo/" target="_self" rel="next">
+                <li>Java</li>
+            </a>
+        </ol>
+    </div>
+    <div id="Back">
+        <a href="pseudo.html" target="_self" rel="prev">Click Here to Back !</a>
+    </div>
+</body>
+</html> 

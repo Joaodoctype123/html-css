@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="shortcut icon" href="python logo.ico" type="image/x-icon">
+    <title>Outras formatações</title>
+    <style>
+        body {
+            background-color: black;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Codigo-fontes / Pré-formatação </h2>
+    <p>O comando de <code>document.getElementy.ById</code> ('teste') é escrito em linguagem JavaScript.</p>
+    <p><pre>
+        <code>
+def somar(num1, num2):
+"""
+Esta função recebe dois números e retorna a soma deles.
+"""
+resultado = num1 + num2
+return resultado
+
+# --- Exemplos de Uso ---
+
+# 1. Somando números inteiros
+a = 10
+b = 5
+soma_inteiros = somar(a, b)
+print(f"A soma de {a} e {b} é: {soma_inteiros}")
+# Saída: A soma de 10 e 5 é: 15
+
+# 2. Somando números decimais (floats)
+c = 3.5
+d = 2.7
+soma_decimais = somar(c, d)
+print(f"A soma de {c} e {d} é: {soma_decimais}")
+# Saída: A soma de 3.5 e 2.7 é: 6.2
+        
+# 3. Usando a função diretamente com valores
+print(f"A soma de 100 e 200 é: {somar(100, 200)}")
+# Saída: A soma de 100 e 200 é: 300
+para fazer isso temos o codigo <mark>&lt;code&gt; e a tag fechada &lt;/code&gt;</mark>.
+e para colocar igual no Vscode é simples com a tag <mark>&lt;pre&gt; e &lt;/pre&gt;</mark>. 
+        </code>
+    </pre></p>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo : <q>O computador é um burro muito rapido</q> <br>
+    Para fazer isso é simples utilizando a tag <mark>&lt;q&gt; e &lt;/q&gt;</mark>.</p>
+    <h2>Citações Completas</h2>
+    <p>Segundo Harry Potter no seu livro :</p>
+    <blockquote cite="https://www.google.pt/books/edition/Harry_potter_e_as_rel%C3%ADquias_da_morte/LtkVkgEACAAJ?hl=pt-PT">
+    - Você é o fraco. Nunca saberá o amor, nem a amizade. E é por isso que você  vai perder. <br><br>
+    Podes fazer isso usando a tag <mark>&lt;blockquote cite=""&gt; e &lt;/blockquote&gt;</mark>
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> estou adorando ! <br>
+    Podes fazer isso usando a tag <mark>&lt;abbr title=""&gt;e &lt;/abbr&gt;</mark></p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo HMTL & CSS</bdo> <br>
+    podes fazer isso com a tag <mark>&lt;bdo&gt; e &lt;/bdo&gt;</p></mark>
+</body>
+</html>

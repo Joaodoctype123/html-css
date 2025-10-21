@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(11, 83, 83, 0.534);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    background-color: rgb(7, 78, 78);
+    color: white;
+    text-indent: 20px;
+
+}
+
+h2 {
+    color: rgb(55, 55, 231);
+
+}
+
+h1#principal {
+    text-align: center;
+    text-indent: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#css {
+    color: yellow;
+}
+
+.basico {
+    color: rgb(55, 87, 231);
+}
+
+.intermediario {
+    color: rgb(231, 190, 55);
+}
+
+.avancado {
+    color: rgb(231, 55, 55);
+}

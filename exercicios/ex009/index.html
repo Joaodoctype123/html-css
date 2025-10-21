@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Listas</title>
+    <style>
+        body {
+            background-color: black;
+            color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 5px;
+        }
+        .listas {
+            background-color: pink;
+            border-radius: 5px;
+            text-decoration: none;
+            color: none;
+        }
+        h1 {
+            text-align: center;
+        }
+        .play {
+            border-radius: 30px;
+            width: 100px;
+            padding: 20px;
+        }
+        .celular {
+            border-radius: 5px;
+        }
+        .xbox {
+            border-radius: 5px;
+        }
+        .pc {
+            border-radius: 30px;
+            width: 500px;
+            padding: 20px;
+        }
+        mark {
+            text-decoration: none;
+            background-color: pink;
+        }
+        p {
+            font-weight: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1> <!-- 1 A a I i -->
+    <h2>Listas Ordenadas</h2>
+    <ol class="listas" type="1" style="background-color: aquamarine;">
+        <li>Acordar</li>
+        <li>Ouvir Musica</li>
+        <li>Tomar Banho</li>
+        <li>Se Arrumar</li>
+        <li>Pegar Auto Carro</li>
+        <li>Almoçar</li>
+        <li>Ir para Aula</li>
+        <li>Voltar para casa</li>
+    </ol>
+    <hr>
+    <p><strong>Definida por tags <mark>&lt;ol&gt; e &lt;/ol&gt;</mark> - <i><ins>Ordered Lists</ins></i>- e dentro vai a tag para os items <mark>&lt;li&gt; e &lt;/li&gt;</mark></strong>.</p>
+    <h2>Listas Não Ordenadas</h2> <!-- disc - circle - square -->
+    <ul class="listas" style="background-color: aqua;"> 
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <li>PHP</li>
+        <li>PYTHON</li>
+        <li>JAVA</li>
+        <li>C</li>
+        <li>C#</li>
+        <li>C++</li>
+        <li>Ruby</li>
+    </ul>
+    <hr>
+    <p><strong>Definida por tags <mark>&lt;ul&gt; e &lt;/ul&gt;</mark> - <i><ins>Unordered Lists</ins></i>- e dentro vai a tag para os items <mark>&lt;li&gt; e &lt;/li&gt;</mark></strong>.</p>
+    <hr>
+    <h2>Meus Jogos Favoritos</h2>
+    <ol class="listas">
+        <hr>
+        <p>PC</p>
+        <img class="
+        pc" src="https://cdn.prod.www.spiegel.de/images/8b766f17-db6d-4c16-939b-3f8b99e2130e_w960_r1.778_fpx29.21_fpy49.99.webp" alt="Computador">
+        <ol class="listas" type="a">
+            <li><mark>Gta Rp</mark></li>
+            <li><mark>Rocket League</mark></li>
+            <li><mark>Fortnite</mark></li>
+            <li><mark>FarCry</mark></li>
+            <li><mark>Minecraft</mark></li>
+        </ol>
+        <hr>
+        <p>Xbox</p> <img class="xbox" src="https://images.freeimages.com/fic/images/icons/870/xbox_360/256/xbox_360_halo.png?fmt=webp&h=350" alt="XBOX">
+        <ol class="listas" type="a">
+            <li><mark>Fifa</mark></li>
+            <ul type="circle">
+                <li><mark>Fifa 23</mark></li>
+                <li><mark>Fifa 24</mark></li>
+                <li><mark>Fifa 25</mark></li>
+                <ul>
+                    <li><mark>The best</mark></li>
+                </ul>
+            </ul>
+            <li><mark>Rocket League</mark></li>
+            <li><mark>Assassin's Creed</mark></li>
+        </ol>
+        <hr>
+        <p>PlayStation</p> <img class="play" src="https://play-lh.googleusercontent.com/DN3Js1S7Qh5TYMEFq5UUwNOiX2ZqT1SNQq8T9_vrZOJ0oFuirxPzeRlP9QZfKF8dXR8=s94-rw" alt="PlayStation">
+        <ol class="listas" type="a">
+            <li><mark>Uncharted</mark></li>
+            <li><mark>The Last of Us</mark></li>
+            <li><mark>Indiana Jones</mark></li>
+            <li><mark>God of War</mark></li>
+        </ol>
+        <hr>
+        <p>Celular</p> <img class="celular" src="https://images.freeimages.com/fic/images/icons/2178/macs/128/iphone.png?fmt=webp&h=350" alt="Celular">
+        <ol class="listas" type="a">
+            <li><mark>Minecraft</mark></li>
+            <li><mark>Free Fire</mark></li>
+            <li><mark>Among us</mark></li>
+            <li><mark>Clash Royale</mark></li>
+        </ol>
+    </ol>
+    <hr>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criação do conteudo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+    <hr>
+    <h2>As Listas com Definições são Definidas por:</h2> <p> <mark>&lt;dl&gt; e &lt;/dl&gt;</mark> para a lista. <br>
+    <mark>&lt;dt&gt; e &lt;/dt&gt;</mark> Para o titulo. <br>
+    <mark>&lt;dd&gt; e &lt;/dd&gt;</mark> Para a Definição do titulo.</p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <style>
+        body {
+            background-color: black;
+            color: rgba(255, 0, 0, 0.952);
+        }
+        mark {
+            background-color: rgb(0, 255, 85);
+
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Principais Formataçôes</h1>
+    <hr>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag : &lt;b&gt;e &lt;/b&gt; <mark>(não semantica)</mark></p>
+    <p>Nesta frase temos um <strong>termo em negrito</strong> usando a tag :&lt;strong&gt; e &lt;/strong&gt; <mark>(semantica)</mark></p>
+    <hr>
+    <h2>Italico / Ênfase</h2>
+    <p>Nesta frase temos um <i>termo em Italico</i> usando a tag &lt;i&gt; e &lt;/i&gt; <mark>(não semantica)</mark></p>
+    <p>Nesta frase temos um <em>termo em Italico</em> usando a tag &lt;em&gt; e &lt;/em&gt; <mark>(semantica)</mark></p>
+    <hr>
+    <h2>Texto Marcado</h2>
+    <p>Podemos tambem criar <mark style="background-color: aqua;">um texto marcado como este</mark> com a tag &lt;mark&gt; tambem <br>podemos mudar a cor do marca texto utilizando o comando <mark>(style)</mark> dentro do mark: então ficaria assim <mark style="background-color: aquamarine;">&lt;mark style="background-color: blue;"&gt; e &lt;/mark&gt;</mark> e para mudar todos os mark no codigo inteiro é facil no head colocar <br> <mark>
+        &lt;style&gt;<br>
+        mark { <br>
+        background-color: aqua; <br> } <br> &lt;/style&gt
+    </mark></p>
+    <hr>
+    <h2>Texto Grande e Pequeno</h2>
+    <p>Estamos agora usando um <big>texto grande</big> o comando &lt;big&gt;e&lt;/big&gt; (não semantica)e um <small>texto pequeno</small> neste paragrafo</p>
+    <p>Temos textos <del>INSERIDOS LIKE THIS.</del></p> 
+    <p>Temos textos <ins>SUBLINHADOS LIKE THIS.</ins></p> 
+    <p>Temos textos sobrescritos <sup>LIKE THIS.</sup> </p>
+    <p>Temos textos subscritos <sub>LIKE THI.S</sub></p> 
+
+    
+</body>
+</html>

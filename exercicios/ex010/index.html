@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Links Externos e Internos</h1>
+    <hr>
+    <p>Você pode acessar esse do curso em video para aprender HTML5 E CSS3 <a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank" rel="external">clique aqui !</a></p>
+    <p>Você pode fazer isso com link externo (abrir outra aba) usando <code>
+        <mark>&lt;a href="conteudo" target="_blank" rel="external"&gt; e fechar com &lt;a&gt;</mark></p>
+    </code>
+    <hr>
+    <p>Tambem podes acessar esse site para ficares informado sobre tudo <a href="https://www.publico.pt/">clique aqui !</a> </p>
+    <p>Você pode fazer isso com link interno na (propria aba) usando<code>
+        <mark> &lt;a href="conteudo"&gt; e fechar com &lt;a&gt;</mark></p>
+    </code>
+    <hr>
+    <h2>Usando links internos</h2>
+    <p>Se você quiser pode acessar a minha segunda pagina <a href="pag002.html" target="_self" rel="next">clique aqui!</a></p>
+    <p><code><mark>Para ir da oficial para uma segunda pagina usamos rel="next"</mark></code></p>
+    <p>Esse documento é um oferecimento de <a href="https://www.hostnet.com.br/" target="_blank" rel="nofollow">Hostnet</a></p>
+    <p><code><mark>Se voce quiser que não seja um "patrocionio" ou uma materia que voce nao tem certeza que é real utilize rel="nofollow"</mark></code></p> <p><code><mark>Para ao mecanismo do google saber que é na propria aba voce usa o comando target="self"</mark></code></p>
+    <p> <mark><code>Outro atributo bem útil da tag de âncora é o hreflang="linguagem do site ", que permite indicar qual é o idioma principal do site para onde o link está desviando o fluxo de navegação. Isso vai permitir avisar ao navegador e a softwares de tradução como lidar caso o visitante opte por traduzir automaticamente os conteúdos</code></mark></p>
+    <h2>Links para download</h2>
+    <ol>
+        <li><a href="arquivos/gettyimages-1281977649 - Atalho.zip" download="imagam.zip" type="application/zip">Imagens guerras em arquivos ZIP</a></li>
+        <li><a href="arquivos/gettyimages-1281977649.pdf" download="minhaimagem.pdf" type="application/pdf" target="_blank" rel="external"> Imagens guerras em arquivos PDF</a></li>
+    </ol>
+
+
+
+
+
+
+
+
+
+    <h2>Definições a usar no (target="")</h2>
+    <dl>
+        <dt>_blank
+            <dd>Vai abrir o link em uma nova janela em branco</dd>
+            _self
+            <dd>Vai abrir o link na janela ou frame atual (padrão)</dd>
+            _top 
+            <dd>Vai desfazer todos os frames e abrir o destino no navegador completo</dd>
+            _parent
+            <dd>similar ao uso do _top em uma referencia a janela mão nome-do-frame caso esteja usando frames, indicar o nome da janela a abir</dd>
+        </dt>
+    </dl>
+    <h2>Definições a usar no (rel="")</h2>
+    <dl>
+        <dt>
+            next
+            <dd>Indica que o link é para a proxima parte do documento atual</dd>
+            prev
+            <dd>Indica que o link é para a parte anterior do documento atual</dd>
+            author
+            <dd>Indica que é um link para o site do autor do artigo atual</dd>
+            external
+            <dd>Indica que é um link para outro site que não faz parte do site</dd>
+        </dt>
+    </dl>
+
+</body>
+</html>
