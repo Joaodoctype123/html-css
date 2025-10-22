@@ -45,10 +45,8 @@ Curso de HTML5  e CSS3 do CursoemVideo
 <br>
 <a href="https://joaodoctype123.github.io/html-css/exercicios/ex021">Exercicio 21</a>
 <br>
+<a href="https://joaodoctype123.github.io/html-css/desafios/d001/">Execute aqui o desafio 1</a>
+<br>
+<a href="https://joaodoctype123.github.io/html-css/desafios/d002/">Execute aqui o desafio 2</a>
+<br>
 <a href="https://joaodoctype123.github.io/html-css/desafios/d10/">Execute aqui o desafio 10</a>
-<br>
-<a href="https://joaodoctype123.github.io/html-css/desafios/d001/">Execute aqui o desafio 10</a>
-<br>
-<a href="https://joaodoctype123.github.io/html-css/desafios/d002/">Execute aqui o desafio 10</a>
-<br>
-<a href="https://joaodoctype123.github.io/html-css/desafios/d003/">Execute aqui o desafio 10</a>
