@@ -4,10 +4,15 @@ Curso de HTML5  e CSS3 do CursoemVideo
 
 
 <a href="https://joaodoctype123.github.io/html-css/exercicios/ex001">Exercicio 1</a>
+<br>
 <a href="https://joaodoctype123.github.io/html-css/exercicios/ex002">Exercicio 2</a>
+<br>
 <a href="https://joaodoctype123.github.io/html-css/exercicios/ex003">Exercicio 3</a>
+<br>
 <a href="https://joaodoctype123.github.io/html-css/exercicios/ex004">Exercicio 4</a>
+<br>
 <a href="https://joaodoctype123.github.io/html-css/exercicios/ex006">Exercicio 6</a>
+<br>
 <a href="https://joaodoctype123.github.io/html-css/exercicios/ex007">Exercicio 7</a>
 <a href="https://joaodoctype123.github.io/html-css/exercicios/ex008">Exercicio 8</a>
 <a href="https://joaodoctype123.github.io/html-css/exercicios/ex008b">Exercicio 8b</a>
