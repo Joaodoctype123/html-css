@@ -13,7 +13,7 @@ Curso de HTML5  e CSS3 do CursoemVideo
 <br>
 <a href="https://joaodoctype123.github.io/html-css/exercicios/ex006">Exercicio 6</a>
 <br>
-<a href="https://joaodoctype123.github.io/html-css/exercicios/ex007">Exercicio 7</a>
+<a href="https://joaodoctype123.github.io/html-css/exercicios/html4.html">Exercicio 7</a>
 <br>
 <a href="https://joaodoctype123.github.io/html-css/exercicios/ex008">Exercicio 8</a>
 <br>
@@ -33,14 +33,14 @@ Curso de HTML5  e CSS3 do CursoemVideo
 <br>
 <a href="https://joaodoctype123.github.io/html-css/exercicios/ex015">Exercicio 15</a>
 <br>
-<a href="https://joaodoctype123.github.io/html-css/exercicios/ex016">Exercicio 16</a>
+<a href="https://joaodoctype123.github.io/html-css/exercicios/cores01.html">Exercicio 16</a>
 <br>
 <a href="https://joaodoctype123.github.io/html-css/exercicios/ex017">Exercicio 17</a>
 <br>
-<a href="https://joaodoctype123.github.io/html-css/exercicios/ex018">Exercicio 18</a>
+<a href="https://joaodoctype123.github.io/html-css/exercicios/fonte01.html">Exercicio 18</a>
 <br>
 <a href="https://joaodoctype123.github.io/html-css/exercicios/ex019">Exercicio 19</a>
 <br>
-<a href="https://joaodoctype123.github.io/html-css/exercicios/ex020">Exercicio 20</a>
+<a href="https://joaodoctype123.github.io/html-css/exercicios/hover.html">Exercicio 20</a>
 <br>
-<a href="https://joaodoctype123.github.io/html-css/exercicios/ex021">Exercicio 21</a>
+<a href="https://joaodoctype123.github.io/html-css/exercicios/caixa01.html">Exercicio 21</a>
