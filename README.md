@@ -52,3 +52,5 @@ Curso de HTML5  e CSS3 do CursoemVideo
 <a href="https://joaodoctype123.github.io/html-css/desafios/d002/">Execute aqui o desafio 2</a>
 <br>
 <a href="https://joaodoctype123.github.io/html-css/desafios/d10/">Execute aqui o desafio 10</a>
+<br>
+<a href="https://joaodoctype123.github.io/html-css/desafios/d12/">Execute aqui o desafio 12</a>
