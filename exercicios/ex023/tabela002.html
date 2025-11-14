@@ -12,18 +12,44 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td,th {
             border: 1px solid black;
             padding: 10px;
         }
         thead {
-            background-color: gray;
+            background-attachment: fixed;
+            background-color: rgb(61, 59, 59);
             color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(56, 54, 54);
         }
         td.habitantes {
             text-align: right;
         }
+        caption {
+            background-color: darkgray;
+            padding: 10px;
+            border-top-left-radius: 3px;
+            border: 1px solid black;
+            border-bottom: none;
+            font-weight: bolder;
+            color: rgb(0, 0, 0);
+        }
+        tfoot {
+            background-color: darkgray;
+        }
+        tbody > tr:nth-child(even) {
+            background-color: darkgray;
+        }
+        /* :nth-child(odd) */
+        /* :nth-child(even) */
+        /* :nth-child(2n) */
+        /* :nth-child(2n-1) */
     </style>
 </head>
 <body>
@@ -31,12 +57,15 @@
     <!-- 
     ANATOMIA PARA TABELAS GRANDES 
     TABLE 
+        CAPTION 
         THEAD
             TR, TD, TH
         TBODY
             TR, TD, TH
         TFOOT
             TR, TD, TH
+            scope="row" - linha
+            scope="col" - coluna
             -->
 </body>
 <table>
@@ -44,7 +73,7 @@
     <thead>
             <th scope="col">Nº</th>
             <th scope="col">Estado</th>
-            <th scope="col">População</th>
+            <th scope="col" style="width: 90px;">População</th>
         </tr>
     </thead>
     <tbody>
@@ -121,7 +150,7 @@
         <tr>
             <td class="quant">15</td>
             <td>Espirito Santo</td>
-            <td class="habitantes">4 126 854</td>
+            <td class="habitantes">4 126 854</td>  
         </tr>
         <tr>
             <td class="quant">16</td>
@@ -191,5 +220,12 @@
             <td class="habitantes"><strong>213 421 037</strong></td>
         </tr>
     </tfoot>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque eius quasi excepturi, quaerat exercitationem fuga ad blanditiis tempore a, incidunt sequi? Nemo quia dignissimos aliquam repellat velit labore expedita laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quos non ea cumque placeat molestiae ducimus quod repudiandae ex distinctio omnis vero eveniet quisquam autem voluptate corrupti id corporis neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore sapiente qui? Vitae expedita consequuntur dolorem exercitationem aut voluptatem neque, cupiditate velit, accusamus voluptatum veritatis, natus suscipit veniam praesentium nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quod sint quaerat optio reiciendis consequatur, cum eligendi ipsum molestias doloribus deleniti nihil sit dolore, nemo neque quae fugiat. Natus, provident?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque eius quasi excepturi, quaerat exercitationem fuga ad blanditiis tempore a, incidunt sequi? Nemo quia dignissimos aliquam repellat velit labore expedita laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quos non ea cumque placeat molestiae ducimus quod repudiandae ex distinctio omnis vero eveniet quisquam autem voluptate corrupti id corporis neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore sapiente qui? Vitae expedita consequuntur dolorem exercitationem aut voluptatem neque, cupiditate velit, accusamus voluptatum veritatis, natus suscipit veniam praesentium nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quod sint quaerat optio reiciendis consequatur, cum eligendi ipsum molestias doloribus deleniti nihil sit dolore, nemo neque quae fugiat. Natus, provident?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque eius quasi excepturi, quaerat exercitationem fuga ad blanditiis tempore a, incidunt sequi? Nemo quia dignissimos aliquam repellat velit labore expedita laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quos non ea cumque placeat molestiae ducimus quod repudiandae ex distinctio omnis vero eveniet quisquam autem voluptate corrupti id corporis neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore sapiente qui? Vitae expedita consequuntur dolorem exercitationem aut voluptatem neque, cupiditate velit, accusamus voluptatum veritatis, natus suscipit veniam praesentium nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quod sint quaerat optio reiciendis consequatur, cum eligendi ipsum molestias doloribus deleniti nihil sit dolore, nemo neque quae fugiat. Natus, provident?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque eius quasi excepturi, quaerat exercitationem fuga ad blanditiis tempore a, incidunt sequi? Nemo quia dignissimos aliquam repellat velit labore expedita laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quos non ea cumque placeat molestiae ducimus quod repudiandae ex distinctio omnis vero eveniet quisquam autem voluptate corrupti id corporis neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore sapiente qui? Vitae expedita consequuntur dolorem exercitationem aut voluptatem neque, cupiditate velit, accusamus voluptatum veritatis, natus suscipit veniam praesentium nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quod sint quaerat optio reiciendis consequatur, cum eligendi ipsum molestias doloribus deleniti nihil sit dolore, nemo neque quae fugiat. Natus, provident?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque eius quasi excepturi, quaerat exercitationem fuga ad blanditiis tempore a, incidunt sequi? Nemo quia dignissimos aliquam repellat velit labore expedita laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quos non ea cumque placeat molestiae ducimus quod repudiandae ex distinctio omnis vero eveniet quisquam autem voluptate corrupti id corporis neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore sapiente qui? Vitae expedita consequuntur dolorem exercitationem aut voluptatem neque, cupiditate velit, accusamus voluptatum veritatis, natus suscipit veniam praesentium nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quod sint quaerat optio reiciendis consequatur, cum eligendi ipsum molestias doloribus deleniti nihil sit dolore, nemo neque quae fugiat. Natus, provident?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque eius quasi excepturi, quaerat exercitationem fuga ad blanditiis tempore a, incidunt sequi? Nemo quia dignissimos aliquam repellat velit labore expedita laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quos non ea cumque placeat molestiae ducimus quod repudiandae ex distinctio omnis vero eveniet quisquam autem voluptate corrupti id corporis neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore sapiente qui? Vitae expedita consequuntur dolorem exercitationem aut voluptatem neque, cupiditate velit, accusamus voluptatum veritatis, natus suscipit veniam praesentium nobis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quod sint quaerat optio reiciendis consequatur, cum eligendi ipsum molestias doloribus deleniti nihil sit dolore, nemo neque quae fugiat. Natus, provident?</p>
+    
 </table>
 </html>
