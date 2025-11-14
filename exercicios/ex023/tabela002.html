@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td,th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead {
+            background-color: gray;
+            color: white;
+        }
+        td.habitantes {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- 
+    ANATOMIA PARA TABELAS GRANDES 
+    TABLE 
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH
+        TFOOT
+            TR, TD, TH
+            -->
+</body>
+<table>
+    <caption>População das Unidades Federativas</caption>
+    <thead>
+            <th scope="col">Nº</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="quant">1</td>
+            <td>São Paulo</td>
+            <td class="habitantes">46 081 801</td>
+        </tr>
+        <tr>
+            <td class="quant">2</td>
+            <td>Minas Gerais</td>
+            <td class="habitantes">21 393 441</td>
+        </tr>
+        <tr>
+            <td class="quant">3</td>
+            <td>Rio de Janeiro</td>
+            <td class="habitantes">17 223 547</td>
+        </tr>
+        <tr>
+            <td class="quant">4</td>
+            <td>Bahia</td>
+            <td class="habitantes">14 870 907</td>
+        </tr>
+        <tr>
+            <td class="quant">5</td>
+            <td>Paraná</td>
+            <td class="habitantes">11 890 517</td>
+        </tr>
+        <tr>
+            <td class="quant">6</td>
+            <td>Rio Grande do Sul</td>
+            <td class="habitantes">11 233 263</td>
+        </tr>
+        <tr>
+            <td class="quant">7</td>
+            <td>Pernambuco</td>
+            <td class="habitantes">9 562 007</td>
+        </tr>
+        <tr>
+            <td class="quant">8</td>
+            <td>Ceará</td>
+            <td class="habitantes">9 268 836</td>
+        </tr>
+        <tr>
+            <td class="quant">9</td>
+            <td>Pará</td>
+            <td class="habitantes">8 711 196</td>
+        </tr>
+        <tr>
+            <td class="quant">10</td>
+            <td>Santa Catarina</td>
+            <td class="habitantes">8 187 029</td>
+        </tr>
+        <tr>
+            <td class="quant">11</td>
+            <td>Goiás</td>
+            <td class="habitantes">7 423 629</td>
+        </tr>
+        <tr>
+            <td class="quant">12</td>
+            <td>Maranhão</td>
+            <td class="habitantes">7 018 211</td>
+        </tr>
+        <tr>
+            <td class="quant">13</td>
+            <td>Amazonas</td>
+            <td class="habitantes">4 321 616</td>
+        </tr>
+        <tr>
+            <td class="quant">14</td>
+            <td>Paraíba</td>
+            <td class="habitantes">4 164 468</td>
+        </tr>
+        <tr>
+            <td class="quant">15</td>
+            <td>Espirito Santo</td>
+            <td class="habitantes">4 126 854</td>
+        </tr>
+        <tr>
+            <td class="quant">16</td>
+            <td>Mato Grosso</td>
+            <td class="habitantes">3 893 659</td>
+        </tr>
+        <tr>
+            <td class="quant">17</td>
+            <td>Rio Grande Do Norte</td>
+            <td class="habitantes">3 455 236</td>
+        </tr>
+        <tr>
+            <td class="quant">18</td>
+            <td>Piauí</td>
+            <td class="habitantes">3 384 547</td>
+        </tr>
+        <tr>
+            <td class="quant">19</td>
+            <td>Alagoas</td>
+            <td class="habitantes">3 220 848</td>
+        </tr>
+        <tr>
+            <td class="quant">20</td>
+            <td>Distrito Federal</td>
+            <td class="habitantes">2 996 899</td>
+        </tr>
+        <tr>
+            <td class="quant">21</td>
+            <td>Mato Grosso do Sul</td>
+            <td class="habitantes">2 924 631</td>
+        </tr>
+        <tr>
+            <td class="quant">22</td>
+            <td>Sergipe</td>
+            <td class="habitantes">2 299 425</td>
+        </tr>
+        <tr>
+            <td class="quant">23</td>
+            <td>Rondônia</td>
+            <td class="habitantes">1 751 950</td>
+        </tr>
+        <tr>
+            <td class="quant">24</td>
+            <td>Tocantins</td>
+            <td class="habitantes">1 586 859</td>
+        </tr>
+        <tr>
+            <td class="quant">25</td>
+            <td>Acre</td>
+            <td class="habitantes">884 372</td>
+        </tr>
+        <tr>
+            <td class="quant">26</td>
+            <td>Amapá</td>
+            <td class="habitantes">806 517</td>
+        </tr>
+        <tr>
+            <td class="quant">27</td>
+            <td>Roraima</td>
+            <td class="habitantes">738 772</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>-</th>
+            <th scope="">Total de Habitantes</th>
+            <td class="habitantes"><strong>213 421 037</strong></td>
+        </tr>
+    </tfoot>
+</table>
+</html>
